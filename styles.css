@@ -99,3 +99,14 @@ button:hover{
     margin-top: -40px;
     font-size: 20px;
 }
+
+.credit> a, a:active, a:visited{
+    font-size: 10px;
+    color: var(--active);
+    text-decoration: none;
+}
+
+.credit>a:hover{
+    color: var(--accent);
+    transition: ease-in-out .5s;
+}
